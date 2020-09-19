@@ -1,10 +1,7 @@
 package com.spring.main.controller;
 
-import java.io.File;
 import java.util.Map;
 
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestHeader;
@@ -22,9 +19,14 @@ public void postData(@RequestHeader Map<String, String> headers)
 {
 	System.out.println(Thread.currentThread().getName());
 }
-@PostMapping("/newMap")
-public int addingNewMapping()
+
+@PostMapping("/valueless")
+public void noBranch()
 {
-return 10;	
+	System.out.println("Hello MOJO");
+}
+public void simplyAddCode()
+{
+System.out.println("I am finding git very tough, please rescue me");	
 }
 }
