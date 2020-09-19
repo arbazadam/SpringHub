@@ -15,7 +15,6 @@ public class HelloController {
 @GetMapping("/hello")
 public String getHello()
 {
-	
 return "template server side app";	
 }
 @PostMapping("/postToServer")
