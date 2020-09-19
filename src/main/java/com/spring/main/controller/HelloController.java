@@ -27,6 +27,10 @@ public void noBranch()
 }
 public void simplyAddCode()
 {
-System.out.println("I am finding git very tough, please rescue me");	
+System.out.println("I am finding git very tough, please rescue me");
+for(int i=0;i<10;i++)
+{
+System.out.println("This is inside the test branch");	
+}
 }
 }
