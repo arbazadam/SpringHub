@@ -25,9 +25,8 @@ public void noBranch()
 {
 	System.out.println("Hello MOJO");
 }
-@PostMapping("/newMap")
-public int addingNewMapping()
+public void simplyAddCode()
 {
-return 10;	
+System.out.println("I am finding git very tough, please rescue me");	
 }
 }
