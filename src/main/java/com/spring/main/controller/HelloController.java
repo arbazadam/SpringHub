@@ -22,4 +22,9 @@ public void postData(@RequestHeader Map<String, String> headers)
 {
 	System.out.println(Thread.currentThread().getName());
 }
+@PostMapping("/newMap")
+public int addingNewMapping()
+{
+return 10;	
+}
 }
