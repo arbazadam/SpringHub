@@ -27,7 +27,8 @@ public void noBranch()
 }
 public void simplyAddCode()
 {
-System.out.println("I am finding git very tough, please rescue theeee");	
+
+System.out.println("I am finding git very tough, please rescue mee");		
 System.out.println("I am finding git very tough, please rescue me");
 for(int i=0;i<10;i++)
 {
