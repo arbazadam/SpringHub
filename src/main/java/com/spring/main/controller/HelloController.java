@@ -12,7 +12,6 @@ public class HelloController {
 @GetMapping("/hello")
 public String getHello()
 {
-	
 return "template server side app";	
 }
 @PostMapping("/postToServer")
@@ -20,9 +19,15 @@ public void postData(@RequestHeader Map<String, String> headers)
 {
 	System.out.println(Thread.currentThread().getName());
 }
+
 @PostMapping("/valueless")
 public void noBranch()
 {
 	System.out.println("Hello MOJO");
+}
+@PostMapping("/newMap")
+public int addingNewMapping()
+{
+return 10;	
 }
 }
